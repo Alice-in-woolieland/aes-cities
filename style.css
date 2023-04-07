@@ -1,0 +1,35 @@
+body {
+    font-family:sans-serif;
+    background-color:black;
+    color:white;
+}
+.image {
+    max-height:40vh;
+    max-width:100%;
+    flex-basis: content;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+}
+.image:active{
+    max-width:90%;
+    max-height:80vh;
+    position:fixed;
+    margin:auto;
+    box-shadow: 2px 2px 200px 40px #000000;
+}
+.imageboard {
+    width:90%;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:stretch;
+    gap:5px;
+}
+.contentbox{
+    width:90%;
+    margin:auto;
+}
